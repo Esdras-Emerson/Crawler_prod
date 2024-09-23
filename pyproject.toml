@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "data-lake"
+version = "0.1.0"
+description = ""
+authors = ["Esdras-Emerson <esdrasemerson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
